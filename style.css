@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6d8d2;
+  background-image: url("Group\ 3\ copy.png");
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center center;
+  margin: 0;
+}
+header {
+  display: flex;
+  height: 206px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #621e2d;
+}
+h1 {
+  width: 357px;
+  height: 71px;
+  flex-direction: column;
+  color: #f2c45a;
+  font-family: Chivo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -22px;
+  max-width: 992px;
+  margin: auto;
+}
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 23px;
+}
+.calltoaction {
+  height: 111px;
+  align-self: stretch;
+  color: #621e2d;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.about {
+  height: 61px;
+  align-self: stretch;
+  color: #621e2d;
+  text-align: center;
+  font-family: Lora;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+button {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #f2c45a;
+  border: 0;
+  color: #621e2d;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
